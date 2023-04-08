@@ -159,6 +159,10 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
   ../tests/byte_stream_test_harness.hh \
   ../libsponge/util/util.hh \
   /usr/include/c++/11/algorithm \
@@ -187,7 +191,6 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
   /usr/include/c++/11/bits/unordered_map.h \
   /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
@@ -292,6 +295,12 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 
 /usr/include/c++/11/bits/align.h:
 
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/11/memory:
+
+/usr/include/c++/11/bits/istream.tcc:
+
 /usr/include/stdlib.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
@@ -347,8 +356,6 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 /usr/include/c++/11/bits/basic_string.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
@@ -466,6 +473,8 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/c++/11/deque:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
@@ -562,6 +571,8 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
+/usr/include/c++/11/bits/deque.tcc:
+
 /usr/include/c++/11/algorithm:
 
 /usr/include/c++/11/bits/specfun.h:
@@ -634,6 +645,14 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
 ../tests/byte_stream_test_harness.hh:
 
 /usr/include/x86_64-linux-gnu/bits/stdio.h:
@@ -677,10 +696,6 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 /usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/c++/11/vector:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/bits/stl_numeric.h:
 
 /usr/include/c++/11/cstddef:
 
@@ -803,9 +818,3 @@ tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o: ../
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/11/istream:
-
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
