@@ -491,6 +491,110 @@ tidy_libsponge__stream_reassembler.cc/fast:
 .PHONY : tidy_libsponge__stream_reassembler.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__tcp_header.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__tcp_header.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__tcp_header.cc
+.PHONY : tidy_quiet_tcp_helpers__tcp_header.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__tcp_header.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__tcp_header.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__tcp_header.cc
+
+# Build rule for target.
+tidy_tcp_helpers__tcp_header.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__tcp_header.cc
+.PHONY : tidy_tcp_helpers__tcp_header.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__tcp_header.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__tcp_header.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__tcp_header.cc.dir/build
+.PHONY : tidy_tcp_helpers__tcp_header.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__tcp_segment.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__tcp_segment.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__tcp_segment.cc
+.PHONY : tidy_quiet_tcp_helpers__tcp_segment.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__tcp_segment.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__tcp_segment.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__tcp_segment.cc
+
+# Build rule for target.
+tidy_tcp_helpers__tcp_segment.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__tcp_segment.cc
+.PHONY : tidy_tcp_helpers__tcp_segment.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__tcp_segment.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__tcp_segment.cc.dir/build
+.PHONY : tidy_tcp_helpers__tcp_segment.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__tcp_state.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__tcp_state.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__tcp_state.cc
+.PHONY : tidy_quiet_tcp_helpers__tcp_state.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__tcp_state.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__tcp_state.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__tcp_state.cc
+
+# Build rule for target.
+tidy_tcp_helpers__tcp_state.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__tcp_state.cc
+.PHONY : tidy_tcp_helpers__tcp_state.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__tcp_state.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/build
+.PHONY : tidy_tcp_helpers__tcp_state.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_libsponge__tcp_receiver.cc
+
+# Build rule for target.
+tidy_quiet_libsponge__tcp_receiver.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_libsponge__tcp_receiver.cc
+.PHONY : tidy_quiet_libsponge__tcp_receiver.cc
+
+# fast build rule for target.
+tidy_quiet_libsponge__tcp_receiver.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc.dir/build
+.PHONY : tidy_quiet_libsponge__tcp_receiver.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_libsponge__tcp_receiver.cc
+
+# Build rule for target.
+tidy_libsponge__tcp_receiver.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_libsponge__tcp_receiver.cc
+.PHONY : tidy_libsponge__tcp_receiver.cc
+
+# fast build rule for target.
+tidy_libsponge__tcp_receiver.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_receiver.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_receiver.cc.dir/build
+.PHONY : tidy_libsponge__tcp_receiver.cc/fast
+
+#=============================================================================
 # Target rules for targets named tidy_quiet_util__address.cc
 
 # Build rule for target.
@@ -697,6 +801,32 @@ tidy_util__util.cc: cmake_check_build_system
 tidy_util__util.cc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__util.cc.dir/build.make CMakeFiles/tidy_util__util.cc.dir/build
 .PHONY : tidy_util__util.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_libsponge__wrapping_integers.cc
+
+# Build rule for target.
+tidy_quiet_libsponge__wrapping_integers.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_libsponge__wrapping_integers.cc
+.PHONY : tidy_quiet_libsponge__wrapping_integers.cc
+
+# fast build rule for target.
+tidy_quiet_libsponge__wrapping_integers.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build
+.PHONY : tidy_quiet_libsponge__wrapping_integers.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_libsponge__wrapping_integers.cc
+
+# Build rule for target.
+tidy_libsponge__wrapping_integers.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_libsponge__wrapping_integers.cc
+.PHONY : tidy_libsponge__wrapping_integers.cc
+
+# fast build rule for target.
+tidy_libsponge__wrapping_integers.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_libsponge__wrapping_integers.cc.dir/build
+.PHONY : tidy_libsponge__wrapping_integers.cc/fast
 
 #=============================================================================
 # Target rules for targets named tidy_quiet_tests__byte_stream_capacity.cc
@@ -2285,6 +2415,19 @@ spongechecks/fast:
 .PHONY : spongechecks/fast
 
 #=============================================================================
+# Target rules for targets named tcp_parser
+
+# Build rule for target.
+tcp_parser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_parser
+.PHONY : tcp_parser
+
+# fast build rule for target.
+tcp_parser/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/build
+.PHONY : tcp_parser/fast
+
+#=============================================================================
 # Target rules for targets named fsm_stream_reassembler_single
 
 # Build rule for target.
@@ -2454,6 +2597,136 @@ byte_stream_many_writes/fast:
 .PHONY : byte_stream_many_writes/fast
 
 #=============================================================================
+# Target rules for targets named wrapping_integers_cmp
+
+# Build rule for target.
+wrapping_integers_cmp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_cmp
+.PHONY : wrapping_integers_cmp
+
+# fast build rule for target.
+wrapping_integers_cmp/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
+.PHONY : wrapping_integers_cmp/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_unwrap
+
+# Build rule for target.
+wrapping_integers_unwrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_unwrap
+.PHONY : wrapping_integers_unwrap
+
+# fast build rule for target.
+wrapping_integers_unwrap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_unwrap.dir/build.make tests/CMakeFiles/wrapping_integers_unwrap.dir/build
+.PHONY : wrapping_integers_unwrap/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_wrap
+
+# Build rule for target.
+wrapping_integers_wrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_wrap
+.PHONY : wrapping_integers_wrap
+
+# fast build rule for target.
+wrapping_integers_wrap/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_wrap.dir/build.make tests/CMakeFiles/wrapping_integers_wrap.dir/build
+.PHONY : wrapping_integers_wrap/fast
+
+#=============================================================================
+# Target rules for targets named wrapping_integers_roundtrip
+
+# Build rule for target.
+wrapping_integers_roundtrip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wrapping_integers_roundtrip
+.PHONY : wrapping_integers_roundtrip
+
+# fast build rule for target.
+wrapping_integers_roundtrip/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_roundtrip.dir/build.make tests/CMakeFiles/wrapping_integers_roundtrip.dir/build
+.PHONY : wrapping_integers_roundtrip/fast
+
+#=============================================================================
+# Target rules for targets named recv_connect
+
+# Build rule for target.
+recv_connect: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_connect
+.PHONY : recv_connect
+
+# fast build rule for target.
+recv_connect/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/build
+.PHONY : recv_connect/fast
+
+#=============================================================================
+# Target rules for targets named recv_transmit
+
+# Build rule for target.
+recv_transmit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_transmit
+.PHONY : recv_transmit
+
+# fast build rule for target.
+recv_transmit/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/build
+.PHONY : recv_transmit/fast
+
+#=============================================================================
+# Target rules for targets named recv_window
+
+# Build rule for target.
+recv_window: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_window
+.PHONY : recv_window
+
+# fast build rule for target.
+recv_window/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/build
+.PHONY : recv_window/fast
+
+#=============================================================================
+# Target rules for targets named recv_reorder
+
+# Build rule for target.
+recv_reorder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_reorder
+.PHONY : recv_reorder
+
+# fast build rule for target.
+recv_reorder/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/build
+.PHONY : recv_reorder/fast
+
+#=============================================================================
+# Target rules for targets named recv_close
+
+# Build rule for target.
+recv_close: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_close
+.PHONY : recv_close
+
+# fast build rule for target.
+recv_close/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/build
+.PHONY : recv_close/fast
+
+#=============================================================================
+# Target rules for targets named recv_special
+
+# Build rule for target.
+recv_special: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recv_special
+.PHONY : recv_special
+
+# fast build rule for target.
+recv_special/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_special.dir/build.make tests/CMakeFiles/recv_special.dir/build
+.PHONY : recv_special/fast
+
+#=============================================================================
 # Target rules for targets named address_dt
 
 # Build rule for target.
@@ -2526,6 +2799,8 @@ help:
 	@echo "... tidy_doctests__socket_example_3.cc"
 	@echo "... tidy_libsponge__byte_stream.cc"
 	@echo "... tidy_libsponge__stream_reassembler.cc"
+	@echo "... tidy_libsponge__tcp_receiver.cc"
+	@echo "... tidy_libsponge__wrapping_integers.cc"
 	@echo "... tidy_quiet_apps__webget.cc"
 	@echo "... tidy_quiet_doctests__address_dt.cc"
 	@echo "... tidy_quiet_doctests__address_example_1.cc"
@@ -2539,6 +2814,11 @@ help:
 	@echo "... tidy_quiet_doctests__socket_example_3.cc"
 	@echo "... tidy_quiet_libsponge__byte_stream.cc"
 	@echo "... tidy_quiet_libsponge__stream_reassembler.cc"
+	@echo "... tidy_quiet_libsponge__tcp_receiver.cc"
+	@echo "... tidy_quiet_libsponge__wrapping_integers.cc"
+	@echo "... tidy_quiet_tcp_helpers__tcp_header.cc"
+	@echo "... tidy_quiet_tcp_helpers__tcp_segment.cc"
+	@echo "... tidy_quiet_tcp_helpers__tcp_state.cc"
 	@echo "... tidy_quiet_tests__byte_stream_capacity.cc"
 	@echo "... tidy_quiet_tests__byte_stream_construction.cc"
 	@echo "... tidy_quiet_tests__byte_stream_many_writes.cc"
@@ -2601,6 +2881,9 @@ help:
 	@echo "... tidy_quiet_util__socket.cc"
 	@echo "... tidy_quiet_util__tun.cc"
 	@echo "... tidy_quiet_util__util.cc"
+	@echo "... tidy_tcp_helpers__tcp_header.cc"
+	@echo "... tidy_tcp_helpers__tcp_segment.cc"
+	@echo "... tidy_tcp_helpers__tcp_state.cc"
 	@echo "... tidy_tests__byte_stream_capacity.cc"
 	@echo "... tidy_tests__byte_stream_construction.cc"
 	@echo "... tidy_tests__byte_stream_many_writes.cc"
@@ -2679,10 +2962,21 @@ help:
 	@echo "... fsm_stream_reassembler_single"
 	@echo "... fsm_stream_reassembler_win"
 	@echo "... parser_dt"
+	@echo "... recv_close"
+	@echo "... recv_connect"
+	@echo "... recv_reorder"
+	@echo "... recv_special"
+	@echo "... recv_transmit"
+	@echo "... recv_window"
 	@echo "... socket_dt"
 	@echo "... sponge"
 	@echo "... spongechecks"
+	@echo "... tcp_parser"
 	@echo "... webget"
+	@echo "... wrapping_integers_cmp"
+	@echo "... wrapping_integers_roundtrip"
+	@echo "... wrapping_integers_unwrap"
+	@echo "... wrapping_integers_wrap"
 .PHONY : help
 
 
