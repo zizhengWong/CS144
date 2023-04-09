@@ -1,17 +1,17 @@
-Start testing: Apr 08 12:58 CST
+Start testing: Apr 09 11:06 CST
 ----------------------------------------------------------
 18/169 Testing: t_strm_reassem_single
 18/169 Test: t_strm_reassem_single
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_single"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_single" start time: Apr 08 12:58 CST
+"t_strm_reassem_single" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_single" end time: Apr 08 12:58 CST
+"t_strm_reassem_single" end time: Apr 09 11:06 CST
 "t_strm_reassem_single" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 19/169 Test: t_strm_reassem_seq
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_seq"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_seq" start time: Apr 08 12:58 CST
+"t_strm_reassem_seq" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_seq" end time: Apr 08 12:58 CST
+"t_strm_reassem_seq" end time: Apr 09 11:06 CST
 "t_strm_reassem_seq" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 20/169 Test: t_strm_reassem_dup
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_dup"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_dup" start time: Apr 08 12:58 CST
+"t_strm_reassem_dup" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_dup" end time: Apr 08 12:58 CST
+"t_strm_reassem_dup" end time: Apr 09 11:06 CST
 "t_strm_reassem_dup" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 21/169 Test: t_strm_reassem_holes
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_holes"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_holes" start time: Apr 08 12:58 CST
+"t_strm_reassem_holes" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_holes" end time: Apr 08 12:58 CST
+"t_strm_reassem_holes" end time: Apr 09 11:06 CST
 "t_strm_reassem_holes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 22/169 Test: t_strm_reassem_many
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_many"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_many" start time: Apr 08 12:58 CST
+"t_strm_reassem_many" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.07 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_many" end time: Apr 08 12:58 CST
+"t_strm_reassem_many" end time: Apr 09 11:06 CST
 "t_strm_reassem_many" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,14 +79,14 @@ Test Passed.
 23/169 Test: t_strm_reassem_overlapping
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_overlapping"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_overlapping" start time: Apr 08 12:58 CST
+"t_strm_reassem_overlapping" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_overlapping" end time: Apr 08 12:58 CST
+"t_strm_reassem_overlapping" end time: Apr 09 11:06 CST
 "t_strm_reassem_overlapping" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -94,14 +94,14 @@ Test Passed.
 24/169 Test: t_strm_reassem_win
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_win"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_win" start time: Apr 08 12:58 CST
+"t_strm_reassem_win" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.07 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_win" end time: Apr 08 12:58 CST
+"t_strm_reassem_win" end time: Apr 09 11:06 CST
 "t_strm_reassem_win" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -109,14 +109,14 @@ Test Passed.
 25/169 Test: t_strm_reassem_cap
 Command: "/home/ubuntu/cs144_sponge/build/tests/fsm_stream_reassembler_cap"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_strm_reassem_cap" start time: Apr 08 12:58 CST
+"t_strm_reassem_cap" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.08 sec
+Test time =   0.09 sec
 ----------------------------------------------------------
 Test Passed.
-"t_strm_reassem_cap" end time: Apr 08 12:58 CST
+"t_strm_reassem_cap" end time: Apr 09 11:06 CST
 "t_strm_reassem_cap" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -124,14 +124,14 @@ Test Passed.
 26/169 Test: t_byte_stream_construction
 Command: "/home/ubuntu/cs144_sponge/build/tests/byte_stream_construction"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_byte_stream_construction" start time: Apr 08 12:58 CST
+"t_byte_stream_construction" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Apr 08 12:58 CST
+"t_byte_stream_construction" end time: Apr 09 11:06 CST
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,14 +139,14 @@ Test Passed.
 27/169 Test: t_byte_stream_one_write
 Command: "/home/ubuntu/cs144_sponge/build/tests/byte_stream_one_write"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_byte_stream_one_write" start time: Apr 08 12:58 CST
+"t_byte_stream_one_write" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Apr 08 12:58 CST
+"t_byte_stream_one_write" end time: Apr 09 11:06 CST
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -154,14 +154,14 @@ Test Passed.
 28/169 Test: t_byte_stream_two_writes
 Command: "/home/ubuntu/cs144_sponge/build/tests/byte_stream_two_writes"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_byte_stream_two_writes" start time: Apr 08 12:58 CST
+"t_byte_stream_two_writes" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Apr 08 12:58 CST
+"t_byte_stream_two_writes" end time: Apr 09 11:06 CST
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -169,14 +169,14 @@ Test Passed.
 29/169 Test: t_byte_stream_capacity
 Command: "/home/ubuntu/cs144_sponge/build/tests/byte_stream_capacity"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_byte_stream_capacity" start time: Apr 08 12:58 CST
+"t_byte_stream_capacity" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.40 sec
+Test time =   0.41 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Apr 08 12:58 CST
+"t_byte_stream_capacity" end time: Apr 09 11:06 CST
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -184,14 +184,14 @@ Test Passed.
 30/169 Test: t_byte_stream_many_writes
 Command: "/home/ubuntu/cs144_sponge/build/tests/byte_stream_many_writes"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_byte_stream_many_writes" start time: Apr 08 12:58 CST
+"t_byte_stream_many_writes" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Apr 08 12:58 CST
+"t_byte_stream_many_writes" end time: Apr 09 11:06 CST
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -199,14 +199,14 @@ Test Passed.
 53/169 Test: t_address_dt
 Command: "/home/ubuntu/cs144_sponge/build/doctests/address_dt"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_address_dt" start time: Apr 08 12:58 CST
+"t_address_dt" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Apr 08 12:58 CST
+"t_address_dt" end time: Apr 09 11:06 CST
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -214,14 +214,14 @@ Test Passed.
 54/169 Test: t_parser_dt
 Command: "/home/ubuntu/cs144_sponge/build/doctests/parser_dt"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_parser_dt" start time: Apr 08 12:58 CST
+"t_parser_dt" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Apr 08 12:58 CST
+"t_parser_dt" end time: Apr 09 11:06 CST
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -229,15 +229,15 @@ Test Passed.
 55/169 Test: t_socket_dt
 Command: "/home/ubuntu/cs144_sponge/build/doctests/socket_dt"
 Directory: /home/ubuntu/cs144_sponge/build
-"t_socket_dt" start time: Apr 08 12:58 CST
+"t_socket_dt" start time: Apr 09 11:06 CST
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Apr 08 12:58 CST
+"t_socket_dt" end time: Apr 09 11:06 CST
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 08 12:58 CST
+End testing: Apr 09 11:06 CST

@@ -4,7 +4,7 @@
 #include "byte_stream.hh"
 
 #include <cstdint>
-#include <vector>
+#include <map>
 #include <string>
 
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
@@ -12,29 +12,13 @@
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
-    class ReassemblerNode {
-      public:
-        size_t begin;
-        size_t end;
-        std::string data;
-        ReassemblerNode(const size_t b, const size_t e, const std::string d) : begin(b), end(e), data(d){};
-        ReassemblerNode() : begin(0), end(0), data(){};
-        bool operator<(const ReassemblerNode &d) const {
-            if (begin == d.begin) {
-                return end < d.end;
-            }
-            return begin < d.begin;
-        };
-    };
-    std::vector<ReassemblerNode> nodes;
-    size_t unassembled_size;
-    size_t current_begin;
-    size_t eof_pos;
-    void PushAndCombine(const size_t index, const std::string &data);
+    std::map<size_t, std::string> _unassemble_strs;
+    size_t _next_assembled_idx;
+    size_t _unassembled_bytes_num;
+    size_t _eof_idx;
 
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
-    void check_contiguous(void);
   public:
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
     //! \note This capacity limits both the bytes that have been reassembled,
