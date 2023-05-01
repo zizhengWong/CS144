@@ -66,7 +66,7 @@ add_test(t_byte_stream_many_writes "/home/ubuntu/cs144_sponge/build/tests/byte_s
 set_tests_properties(t_byte_stream_many_writes PROPERTIES  _BACKTRACE_TRIPLES "/home/ubuntu/cs144_sponge/etc/tests.cmake;38;add_test;/home/ubuntu/cs144_sponge/etc/tests.cmake;0;;/home/ubuntu/cs144_sponge/CMakeLists.txt;27;include;/home/ubuntu/cs144_sponge/CMakeLists.txt;0;")
 add_test(t_webget "/home/ubuntu/cs144_sponge/tests/webget_t.sh")
 set_tests_properties(t_webget PROPERTIES  _BACKTRACE_TRIPLES "/home/ubuntu/cs144_sponge/etc/tests.cmake;40;add_test;/home/ubuntu/cs144_sponge/etc/tests.cmake;0;;/home/ubuntu/cs144_sponge/CMakeLists.txt;27;include;/home/ubuntu/cs144_sponge/CMakeLists.txt;0;")
-add_test(arp_network_interface "net_interface")
+add_test(arp_network_interface "/home/ubuntu/cs144_sponge/build/tests/net_interface")
 set_tests_properties(arp_network_interface PROPERTIES  _BACKTRACE_TRIPLES "/home/ubuntu/cs144_sponge/etc/tests.cmake;42;add_test;/home/ubuntu/cs144_sponge/etc/tests.cmake;0;;/home/ubuntu/cs144_sponge/CMakeLists.txt;27;include;/home/ubuntu/cs144_sponge/CMakeLists.txt;0;")
 add_test(router_test "network_simulator")
 set_tests_properties(router_test PROPERTIES  _BACKTRACE_TRIPLES "/home/ubuntu/cs144_sponge/etc/tests.cmake;44;add_test;/home/ubuntu/cs144_sponge/etc/tests.cmake;0;;/home/ubuntu/cs144_sponge/CMakeLists.txt;27;include;/home/ubuntu/cs144_sponge/CMakeLists.txt;0;")

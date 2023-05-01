@@ -205,6 +205,32 @@ tidy_apps__tcp_benchmark.cc/fast:
 .PHONY : tidy_apps__tcp_benchmark.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_quiet_apps__tcp_ip_ethernet.cc
+
+# Build rule for target.
+tidy_quiet_apps__tcp_ip_ethernet.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_apps__tcp_ip_ethernet.cc
+.PHONY : tidy_quiet_apps__tcp_ip_ethernet.cc
+
+# fast build rule for target.
+tidy_quiet_apps__tcp_ip_ethernet.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir/build.make CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir/build
+.PHONY : tidy_quiet_apps__tcp_ip_ethernet.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_apps__tcp_ip_ethernet.cc
+
+# Build rule for target.
+tidy_apps__tcp_ip_ethernet.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_apps__tcp_ip_ethernet.cc
+.PHONY : tidy_apps__tcp_ip_ethernet.cc
+
+# fast build rule for target.
+tidy_apps__tcp_ip_ethernet.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ip_ethernet.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ip_ethernet.cc.dir/build
+.PHONY : tidy_apps__tcp_ip_ethernet.cc/fast
+
+#=============================================================================
 # Target rules for targets named tidy_quiet_apps__tcp_ipv4.cc
 
 # Build rule for target.
@@ -647,6 +673,32 @@ tidy_libsponge__byte_stream.cc/fast:
 .PHONY : tidy_libsponge__byte_stream.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_quiet_libsponge__network_interface.cc
+
+# Build rule for target.
+tidy_quiet_libsponge__network_interface.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_libsponge__network_interface.cc
+.PHONY : tidy_quiet_libsponge__network_interface.cc
+
+# fast build rule for target.
+tidy_quiet_libsponge__network_interface.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__network_interface.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__network_interface.cc.dir/build
+.PHONY : tidy_quiet_libsponge__network_interface.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_libsponge__network_interface.cc
+
+# Build rule for target.
+tidy_libsponge__network_interface.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_libsponge__network_interface.cc
+.PHONY : tidy_libsponge__network_interface.cc
+
+# fast build rule for target.
+tidy_libsponge__network_interface.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__network_interface.cc.dir/build.make CMakeFiles/tidy_libsponge__network_interface.cc.dir/build
+.PHONY : tidy_libsponge__network_interface.cc/fast
+
+#=============================================================================
 # Target rules for targets named tidy_quiet_libsponge__stream_reassembler.cc
 
 # Build rule for target.
@@ -697,6 +749,84 @@ tidy_libsponge__tcp_connection.cc: cmake_check_build_system
 tidy_libsponge__tcp_connection.cc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_connection.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_connection.cc.dir/build
 .PHONY : tidy_libsponge__tcp_connection.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__arp_message.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__arp_message.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__arp_message.cc
+.PHONY : tidy_quiet_tcp_helpers__arp_message.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__arp_message.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__arp_message.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__arp_message.cc
+
+# Build rule for target.
+tidy_tcp_helpers__arp_message.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__arp_message.cc
+.PHONY : tidy_tcp_helpers__arp_message.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__arp_message.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/build
+.PHONY : tidy_tcp_helpers__arp_message.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__ethernet_frame.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__ethernet_frame.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__ethernet_frame.cc
+.PHONY : tidy_quiet_tcp_helpers__ethernet_frame.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__ethernet_frame.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__ethernet_frame.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__ethernet_frame.cc
+
+# Build rule for target.
+tidy_tcp_helpers__ethernet_frame.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__ethernet_frame.cc
+.PHONY : tidy_tcp_helpers__ethernet_frame.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__ethernet_frame.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc.dir/build
+.PHONY : tidy_tcp_helpers__ethernet_frame.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_tcp_helpers__ethernet_header.cc
+
+# Build rule for target.
+tidy_quiet_tcp_helpers__ethernet_header.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_tcp_helpers__ethernet_header.cc
+.PHONY : tidy_quiet_tcp_helpers__ethernet_header.cc
+
+# fast build rule for target.
+tidy_quiet_tcp_helpers__ethernet_header.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc.dir/build
+.PHONY : tidy_quiet_tcp_helpers__ethernet_header.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_tcp_helpers__ethernet_header.cc
+
+# Build rule for target.
+tidy_tcp_helpers__ethernet_header.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_tcp_helpers__ethernet_header.cc
+.PHONY : tidy_tcp_helpers__ethernet_header.cc
+
+# fast build rule for target.
+tidy_tcp_helpers__ethernet_header.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tcp_helpers__ethernet_header.cc.dir/build.make CMakeFiles/tidy_tcp_helpers__ethernet_header.cc.dir/build
+.PHONY : tidy_tcp_helpers__ethernet_header.cc/fast
 
 #=============================================================================
 # Target rules for targets named tidy_quiet_tcp_helpers__fd_adapter.cc
@@ -2857,6 +2987,19 @@ tcp_ipv4/fast:
 .PHONY : tcp_ipv4/fast
 
 #=============================================================================
+# Target rules for targets named tcp_ip_ethernet
+
+# Build rule for target.
+tcp_ip_ethernet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tcp_ip_ethernet
+.PHONY : tcp_ip_ethernet
+
+# fast build rule for target.
+tcp_ip_ethernet/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/build
+.PHONY : tcp_ip_ethernet/fast
+
+#=============================================================================
 # Target rules for targets named webget
 
 # Build rule for target.
@@ -3468,6 +3611,19 @@ send_extra/fast:
 .PHONY : send_extra/fast
 
 #=============================================================================
+# Target rules for targets named net_interface
+
+# Build rule for target.
+net_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 net_interface
+.PHONY : net_interface
+
+# fast build rule for target.
+net_interface/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/build
+.PHONY : net_interface/fast
+
+#=============================================================================
 # Target rules for targets named address_dt
 
 # Build rule for target.
@@ -3529,6 +3685,7 @@ help:
 	@echo "... tidy"
 	@echo "... tidy_apps__bidirectional_stream_copy.cc"
 	@echo "... tidy_apps__tcp_benchmark.cc"
+	@echo "... tidy_apps__tcp_ip_ethernet.cc"
 	@echo "... tidy_apps__tcp_ipv4.cc"
 	@echo "... tidy_apps__tcp_native.cc"
 	@echo "... tidy_apps__tcp_udp.cc"
@@ -3546,6 +3703,7 @@ help:
 	@echo "... tidy_doctests__socket_example_2.cc"
 	@echo "... tidy_doctests__socket_example_3.cc"
 	@echo "... tidy_libsponge__byte_stream.cc"
+	@echo "... tidy_libsponge__network_interface.cc"
 	@echo "... tidy_libsponge__stream_reassembler.cc"
 	@echo "... tidy_libsponge__tcp_connection.cc"
 	@echo "... tidy_libsponge__tcp_receiver.cc"
@@ -3553,6 +3711,7 @@ help:
 	@echo "... tidy_libsponge__wrapping_integers.cc"
 	@echo "... tidy_quiet_apps__bidirectional_stream_copy.cc"
 	@echo "... tidy_quiet_apps__tcp_benchmark.cc"
+	@echo "... tidy_quiet_apps__tcp_ip_ethernet.cc"
 	@echo "... tidy_quiet_apps__tcp_ipv4.cc"
 	@echo "... tidy_quiet_apps__tcp_native.cc"
 	@echo "... tidy_quiet_apps__tcp_udp.cc"
@@ -3570,11 +3729,15 @@ help:
 	@echo "... tidy_quiet_doctests__socket_example_2.cc"
 	@echo "... tidy_quiet_doctests__socket_example_3.cc"
 	@echo "... tidy_quiet_libsponge__byte_stream.cc"
+	@echo "... tidy_quiet_libsponge__network_interface.cc"
 	@echo "... tidy_quiet_libsponge__stream_reassembler.cc"
 	@echo "... tidy_quiet_libsponge__tcp_connection.cc"
 	@echo "... tidy_quiet_libsponge__tcp_receiver.cc"
 	@echo "... tidy_quiet_libsponge__tcp_sender.cc"
 	@echo "... tidy_quiet_libsponge__wrapping_integers.cc"
+	@echo "... tidy_quiet_tcp_helpers__arp_message.cc"
+	@echo "... tidy_quiet_tcp_helpers__ethernet_frame.cc"
+	@echo "... tidy_quiet_tcp_helpers__ethernet_header.cc"
 	@echo "... tidy_quiet_tcp_helpers__fd_adapter.cc"
 	@echo "... tidy_quiet_tcp_helpers__ipv4_datagram.cc"
 	@echo "... tidy_quiet_tcp_helpers__ipv4_header.cc"
@@ -3646,6 +3809,9 @@ help:
 	@echo "... tidy_quiet_util__socket.cc"
 	@echo "... tidy_quiet_util__tun.cc"
 	@echo "... tidy_quiet_util__util.cc"
+	@echo "... tidy_tcp_helpers__arp_message.cc"
+	@echo "... tidy_tcp_helpers__ethernet_frame.cc"
+	@echo "... tidy_tcp_helpers__ethernet_header.cc"
 	@echo "... tidy_tcp_helpers__fd_adapter.cc"
 	@echo "... tidy_tcp_helpers__ipv4_datagram.cc"
 	@echo "... tidy_tcp_helpers__ipv4_header.cc"
@@ -3745,6 +3911,7 @@ help:
 	@echo "... fsm_stream_reassembler_win"
 	@echo "... fsm_winsize"
 	@echo "... ipv4_parser"
+	@echo "... net_interface"
 	@echo "... parser_dt"
 	@echo "... recv_close"
 	@echo "... recv_connect"
@@ -3764,6 +3931,7 @@ help:
 	@echo "... spongechecks"
 	@echo "... stream_copy"
 	@echo "... tcp_benchmark"
+	@echo "... tcp_ip_ethernet"
 	@echo "... tcp_ipv4"
 	@echo "... tcp_native"
 	@echo "... tcp_parser"

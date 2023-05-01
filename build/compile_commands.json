@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/network_interface.cc.o -c /home/ubuntu/cs144_sponge/libsponge/network_interface.cc",
+  "file": "/home/ubuntu/cs144_sponge/libsponge/network_interface.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /home/ubuntu/cs144_sponge/libsponge/stream_reassembler.cc",
   "file": "/home/ubuntu/cs144_sponge/libsponge/stream_reassembler.cc"
 },
@@ -13,6 +18,21 @@
   "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/tcp_connection.cc.o -c /home/ubuntu/cs144_sponge/libsponge/tcp_connection.cc",
   "file": "/home/ubuntu/cs144_sponge/libsponge/tcp_connection.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/tcp_helpers/arp_message.cc.o -c /home/ubuntu/cs144_sponge/libsponge/tcp_helpers/arp_message.cc",
+  "file": "/home/ubuntu/cs144_sponge/libsponge/tcp_helpers/arp_message.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/tcp_helpers/ethernet_frame.cc.o -c /home/ubuntu/cs144_sponge/libsponge/tcp_helpers/ethernet_frame.cc",
+  "file": "/home/ubuntu/cs144_sponge/libsponge/tcp_helpers/ethernet_frame.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/tcp_helpers/ethernet_header.cc.o -c /home/ubuntu/cs144_sponge/libsponge/tcp_helpers/ethernet_header.cc",
+  "file": "/home/ubuntu/cs144_sponge/libsponge/tcp_helpers/ethernet_header.cc"
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
@@ -146,6 +166,11 @@
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/apps",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o -c /home/ubuntu/cs144_sponge/apps/tcp_ip_ethernet.cc",
+  "file": "/home/ubuntu/cs144_sponge/apps/tcp_ip_ethernet.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/apps",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/webget.dir/webget.cc.o -c /home/ubuntu/cs144_sponge/apps/webget.cc",
   "file": "/home/ubuntu/cs144_sponge/apps/webget.cc"
 },
@@ -168,6 +193,11 @@
   "directory": "/home/ubuntu/cs144_sponge/build/tests",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /home/ubuntu/cs144_sponge/tests/byte_stream_test_harness.cc",
   "file": "/home/ubuntu/cs144_sponge/tests/byte_stream_test_harness.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/tests",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -c /home/ubuntu/cs144_sponge/tests/network_interface_test_harness.cc",
+  "file": "/home/ubuntu/cs144_sponge/tests/network_interface_test_harness.cc"
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/tests",
@@ -388,6 +418,11 @@
   "directory": "/home/ubuntu/cs144_sponge/build/tests",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/send_extra.dir/send_extra.cc.o -c /home/ubuntu/cs144_sponge/tests/send_extra.cc",
   "file": "/home/ubuntu/cs144_sponge/tests/send_extra.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/tests",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/net_interface.dir/net_interface.cc.o -c /home/ubuntu/cs144_sponge/tests/net_interface.cc",
+  "file": "/home/ubuntu/cs144_sponge/tests/net_interface.cc"
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/doctests",

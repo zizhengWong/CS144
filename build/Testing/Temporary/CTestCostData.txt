@@ -1,4 +1,4 @@
-t_webget 9 0.129092
+t_webget 10 0.126676
 t_byte_stream_construction 46 6.33896e-05
 t_byte_stream_one_write 46 5.64863e-05
 t_byte_stream_two_writes 46 8.66171e-05
@@ -160,4 +160,5 @@ t_isnR_128K_8K_lL 3 0.181358
 t_isnD_128K_8K_l 3 0.27831
 t_isnD_128K_8K_L 3 0.0837576
 t_isnD_128K_8K_lL 3 0.184878
+arp_network_interface 1 0.00329885
 ---
