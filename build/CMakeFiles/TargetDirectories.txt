@@ -2,6 +2,10 @@
 /home/ubuntu/cs144_sponge/build/CMakeFiles/format.dir
 /home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir
 /home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir
+/home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_quiet_apps__bouncer.cc.dir
+/home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_apps__bouncer.cc.dir
+/home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_quiet_apps__lab7.cc.dir
+/home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_apps__lab7.cc.dir
 /home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir
 /home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_apps__network_simulator.cc.dir
 /home/ubuntu/cs144_sponge/build/CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc.dir
@@ -232,6 +236,8 @@
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/webget.dir
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/tcp_benchmark.dir
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/network_simulator.dir
+/home/ubuntu/cs144_sponge/build/apps/CMakeFiles/lab7.dir
+/home/ubuntu/cs144_sponge/build/apps/CMakeFiles/bouncer.dir
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/test.dir
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/edit_cache.dir
 /home/ubuntu/cs144_sponge/build/apps/CMakeFiles/rebuild_cache.dir

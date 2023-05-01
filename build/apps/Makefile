@@ -266,6 +266,34 @@ network_simulator/fast:
 	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/build
 .PHONY : network_simulator/fast
 
+# Convenience name for target.
+apps/CMakeFiles/lab7.dir/rule:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/lab7.dir/rule
+.PHONY : apps/CMakeFiles/lab7.dir/rule
+
+# Convenience name for target.
+lab7: apps/CMakeFiles/lab7.dir/rule
+.PHONY : lab7
+
+# fast build rule for target.
+lab7/fast:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/lab7.dir/build.make apps/CMakeFiles/lab7.dir/build
+.PHONY : lab7/fast
+
+# Convenience name for target.
+apps/CMakeFiles/bouncer.dir/rule:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/bouncer.dir/rule
+.PHONY : apps/CMakeFiles/bouncer.dir/rule
+
+# Convenience name for target.
+bouncer: apps/CMakeFiles/bouncer.dir/rule
+.PHONY : bouncer
+
+# fast build rule for target.
+bouncer/fast:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/bouncer.dir/build.make apps/CMakeFiles/bouncer.dir/build
+.PHONY : bouncer/fast
+
 bidirectional_stream_copy.o: bidirectional_stream_copy.cc.o
 .PHONY : bidirectional_stream_copy.o
 
@@ -289,6 +317,54 @@ bidirectional_stream_copy.s: bidirectional_stream_copy.cc.s
 bidirectional_stream_copy.cc.s:
 	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/stream_copy.dir/build.make apps/CMakeFiles/stream_copy.dir/bidirectional_stream_copy.cc.s
 .PHONY : bidirectional_stream_copy.cc.s
+
+bouncer.o: bouncer.cc.o
+.PHONY : bouncer.o
+
+# target to build an object file
+bouncer.cc.o:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/bouncer.dir/build.make apps/CMakeFiles/bouncer.dir/bouncer.cc.o
+.PHONY : bouncer.cc.o
+
+bouncer.i: bouncer.cc.i
+.PHONY : bouncer.i
+
+# target to preprocess a source file
+bouncer.cc.i:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/bouncer.dir/build.make apps/CMakeFiles/bouncer.dir/bouncer.cc.i
+.PHONY : bouncer.cc.i
+
+bouncer.s: bouncer.cc.s
+.PHONY : bouncer.s
+
+# target to generate assembly for a file
+bouncer.cc.s:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/bouncer.dir/build.make apps/CMakeFiles/bouncer.dir/bouncer.cc.s
+.PHONY : bouncer.cc.s
+
+lab7.o: lab7.cc.o
+.PHONY : lab7.o
+
+# target to build an object file
+lab7.cc.o:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/lab7.dir/build.make apps/CMakeFiles/lab7.dir/lab7.cc.o
+.PHONY : lab7.cc.o
+
+lab7.i: lab7.cc.i
+.PHONY : lab7.i
+
+# target to preprocess a source file
+lab7.cc.i:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/lab7.dir/build.make apps/CMakeFiles/lab7.dir/lab7.cc.i
+.PHONY : lab7.cc.i
+
+lab7.s: lab7.cc.s
+.PHONY : lab7.s
+
+# target to generate assembly for a file
+lab7.cc.s:
+	cd /home/ubuntu/cs144_sponge/build && $(MAKE) $(MAKESILENT) -f apps/CMakeFiles/lab7.dir/build.make apps/CMakeFiles/lab7.dir/lab7.cc.s
+.PHONY : lab7.cc.s
 
 network_simulator.o: network_simulator.cc.o
 .PHONY : network_simulator.o
@@ -515,6 +591,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... bouncer"
+	@echo "... lab7"
 	@echo "... network_simulator"
 	@echo "... stream_copy"
 	@echo "... tcp_benchmark"
@@ -528,6 +606,12 @@ help:
 	@echo "... bidirectional_stream_copy.o"
 	@echo "... bidirectional_stream_copy.i"
 	@echo "... bidirectional_stream_copy.s"
+	@echo "... bouncer.o"
+	@echo "... bouncer.i"
+	@echo "... bouncer.s"
+	@echo "... lab7.o"
+	@echo "... lab7.i"
+	@echo "... lab7.s"
 	@echo "... network_simulator.o"
 	@echo "... network_simulator.i"
 	@echo "... network_simulator.s"

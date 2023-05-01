@@ -179,6 +179,58 @@ tidy_apps__bidirectional_stream_copy.cc/fast:
 .PHONY : tidy_apps__bidirectional_stream_copy.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_quiet_apps__bouncer.cc
+
+# Build rule for target.
+tidy_quiet_apps__bouncer.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_apps__bouncer.cc
+.PHONY : tidy_quiet_apps__bouncer.cc
+
+# fast build rule for target.
+tidy_quiet_apps__bouncer.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bouncer.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bouncer.cc.dir/build
+.PHONY : tidy_quiet_apps__bouncer.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_apps__bouncer.cc
+
+# Build rule for target.
+tidy_apps__bouncer.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_apps__bouncer.cc
+.PHONY : tidy_apps__bouncer.cc
+
+# fast build rule for target.
+tidy_apps__bouncer.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bouncer.cc.dir/build.make CMakeFiles/tidy_apps__bouncer.cc.dir/build
+.PHONY : tidy_apps__bouncer.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_apps__lab7.cc
+
+# Build rule for target.
+tidy_quiet_apps__lab7.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_apps__lab7.cc
+.PHONY : tidy_quiet_apps__lab7.cc
+
+# fast build rule for target.
+tidy_quiet_apps__lab7.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__lab7.cc.dir/build.make CMakeFiles/tidy_quiet_apps__lab7.cc.dir/build
+.PHONY : tidy_quiet_apps__lab7.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_apps__lab7.cc
+
+# Build rule for target.
+tidy_apps__lab7.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_apps__lab7.cc
+.PHONY : tidy_apps__lab7.cc
+
+# fast build rule for target.
+tidy_apps__lab7.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__lab7.cc.dir/build.make CMakeFiles/tidy_apps__lab7.cc.dir/build
+.PHONY : tidy_apps__lab7.cc/fast
+
+#=============================================================================
 # Target rules for targets named tidy_quiet_apps__network_simulator.cc
 
 # Build rule for target.
@@ -3091,6 +3143,32 @@ network_simulator/fast:
 .PHONY : network_simulator/fast
 
 #=============================================================================
+# Target rules for targets named lab7
+
+# Build rule for target.
+lab7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab7
+.PHONY : lab7
+
+# fast build rule for target.
+lab7/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/lab7.dir/build.make apps/CMakeFiles/lab7.dir/build
+.PHONY : lab7/fast
+
+#=============================================================================
+# Target rules for targets named bouncer
+
+# Build rule for target.
+bouncer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bouncer
+.PHONY : bouncer
+
+# fast build rule for target.
+bouncer/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/bouncer.dir/build.make apps/CMakeFiles/bouncer.dir/build
+.PHONY : bouncer/fast
+
+#=============================================================================
 # Target rules for targets named spongechecks
 
 # Build rule for target.
@@ -3749,6 +3827,8 @@ help:
 	@echo "... format"
 	@echo "... tidy"
 	@echo "... tidy_apps__bidirectional_stream_copy.cc"
+	@echo "... tidy_apps__bouncer.cc"
+	@echo "... tidy_apps__lab7.cc"
 	@echo "... tidy_apps__network_simulator.cc"
 	@echo "... tidy_apps__tcp_benchmark.cc"
 	@echo "... tidy_apps__tcp_ip_ethernet.cc"
@@ -3777,6 +3857,8 @@ help:
 	@echo "... tidy_libsponge__tcp_sender.cc"
 	@echo "... tidy_libsponge__wrapping_integers.cc"
 	@echo "... tidy_quiet_apps__bidirectional_stream_copy.cc"
+	@echo "... tidy_quiet_apps__bouncer.cc"
+	@echo "... tidy_quiet_apps__lab7.cc"
 	@echo "... tidy_quiet_apps__network_simulator.cc"
 	@echo "... tidy_quiet_apps__tcp_benchmark.cc"
 	@echo "... tidy_quiet_apps__tcp_ip_ethernet.cc"
@@ -3954,6 +4036,7 @@ help:
 	@echo "... tidy_util__util.cc"
 	@echo "... tidy_verbose"
 	@echo "... address_dt"
+	@echo "... bouncer"
 	@echo "... byte_stream_capacity"
 	@echo "... byte_stream_construction"
 	@echo "... byte_stream_many_writes"
@@ -3980,6 +4063,7 @@ help:
 	@echo "... fsm_stream_reassembler_win"
 	@echo "... fsm_winsize"
 	@echo "... ipv4_parser"
+	@echo "... lab7"
 	@echo "... net_interface"
 	@echo "... network_simulator"
 	@echo "... parser_dt"
