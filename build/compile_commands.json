@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/router.cc.o -c /home/ubuntu/cs144_sponge/libsponge/router.cc",
+  "file": "/home/ubuntu/cs144_sponge/libsponge/router.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/libsponge",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /home/ubuntu/cs144_sponge/libsponge/stream_reassembler.cc",
   "file": "/home/ubuntu/cs144_sponge/libsponge/stream_reassembler.cc"
 },
@@ -178,6 +183,11 @@
   "directory": "/home/ubuntu/cs144_sponge/build/apps",
   "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/tcp_benchmark.dir/tcp_benchmark.cc.o -c /home/ubuntu/cs144_sponge/apps/tcp_benchmark.cc",
   "file": "/home/ubuntu/cs144_sponge/apps/tcp_benchmark.cc"
+},
+{
+  "directory": "/home/ubuntu/cs144_sponge/build/apps",
+  "command": "/usr/lib/ccache/c++  -I/home/ubuntu/cs144_sponge/libsponge/util -I/home/ubuntu/cs144_sponge/libsponge/tcp_helpers -I/home/ubuntu/cs144_sponge/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -O3 -DNDEBUG -o CMakeFiles/network_simulator.dir/network_simulator.cc.o -c /home/ubuntu/cs144_sponge/apps/network_simulator.cc",
+  "file": "/home/ubuntu/cs144_sponge/apps/network_simulator.cc"
 },
 {
   "directory": "/home/ubuntu/cs144_sponge/build/tests",

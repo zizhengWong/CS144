@@ -160,5 +160,6 @@ t_isnR_128K_8K_lL 3 0.181358
 t_isnD_128K_8K_l 3 0.27831
 t_isnD_128K_8K_L 3 0.0837576
 t_isnD_128K_8K_lL 3 0.184878
-arp_network_interface 1 0.00329885
+arp_network_interface 2 0.00180283
+router_test 1 0.00919224
 ---

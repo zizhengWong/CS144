@@ -179,6 +179,32 @@ tidy_apps__bidirectional_stream_copy.cc/fast:
 .PHONY : tidy_apps__bidirectional_stream_copy.cc/fast
 
 #=============================================================================
+# Target rules for targets named tidy_quiet_apps__network_simulator.cc
+
+# Build rule for target.
+tidy_quiet_apps__network_simulator.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_apps__network_simulator.cc
+.PHONY : tidy_quiet_apps__network_simulator.cc
+
+# fast build rule for target.
+tidy_quiet_apps__network_simulator.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build
+.PHONY : tidy_quiet_apps__network_simulator.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_apps__network_simulator.cc
+
+# Build rule for target.
+tidy_apps__network_simulator.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_apps__network_simulator.cc
+.PHONY : tidy_apps__network_simulator.cc
+
+# fast build rule for target.
+tidy_apps__network_simulator.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_apps__network_simulator.cc.dir/build
+.PHONY : tidy_apps__network_simulator.cc/fast
+
+#=============================================================================
 # Target rules for targets named tidy_quiet_apps__tcp_benchmark.cc
 
 # Build rule for target.
@@ -697,6 +723,32 @@ tidy_libsponge__network_interface.cc: cmake_check_build_system
 tidy_libsponge__network_interface.cc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__network_interface.cc.dir/build.make CMakeFiles/tidy_libsponge__network_interface.cc.dir/build
 .PHONY : tidy_libsponge__network_interface.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_quiet_libsponge__router.cc
+
+# Build rule for target.
+tidy_quiet_libsponge__router.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_quiet_libsponge__router.cc
+.PHONY : tidy_quiet_libsponge__router.cc
+
+# fast build rule for target.
+tidy_quiet_libsponge__router.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build
+.PHONY : tidy_quiet_libsponge__router.cc/fast
+
+#=============================================================================
+# Target rules for targets named tidy_libsponge__router.cc
+
+# Build rule for target.
+tidy_libsponge__router.cc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tidy_libsponge__router.cc
+.PHONY : tidy_libsponge__router.cc
+
+# fast build rule for target.
+tidy_libsponge__router.cc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__router.cc.dir/build.make CMakeFiles/tidy_libsponge__router.cc.dir/build
+.PHONY : tidy_libsponge__router.cc/fast
 
 #=============================================================================
 # Target rules for targets named tidy_quiet_libsponge__stream_reassembler.cc
@@ -3026,6 +3078,19 @@ tcp_benchmark/fast:
 .PHONY : tcp_benchmark/fast
 
 #=============================================================================
+# Target rules for targets named network_simulator
+
+# Build rule for target.
+network_simulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 network_simulator
+.PHONY : network_simulator
+
+# fast build rule for target.
+network_simulator/fast:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/build
+.PHONY : network_simulator/fast
+
+#=============================================================================
 # Target rules for targets named spongechecks
 
 # Build rule for target.
@@ -3684,6 +3749,7 @@ help:
 	@echo "... format"
 	@echo "... tidy"
 	@echo "... tidy_apps__bidirectional_stream_copy.cc"
+	@echo "... tidy_apps__network_simulator.cc"
 	@echo "... tidy_apps__tcp_benchmark.cc"
 	@echo "... tidy_apps__tcp_ip_ethernet.cc"
 	@echo "... tidy_apps__tcp_ipv4.cc"
@@ -3704,12 +3770,14 @@ help:
 	@echo "... tidy_doctests__socket_example_3.cc"
 	@echo "... tidy_libsponge__byte_stream.cc"
 	@echo "... tidy_libsponge__network_interface.cc"
+	@echo "... tidy_libsponge__router.cc"
 	@echo "... tidy_libsponge__stream_reassembler.cc"
 	@echo "... tidy_libsponge__tcp_connection.cc"
 	@echo "... tidy_libsponge__tcp_receiver.cc"
 	@echo "... tidy_libsponge__tcp_sender.cc"
 	@echo "... tidy_libsponge__wrapping_integers.cc"
 	@echo "... tidy_quiet_apps__bidirectional_stream_copy.cc"
+	@echo "... tidy_quiet_apps__network_simulator.cc"
 	@echo "... tidy_quiet_apps__tcp_benchmark.cc"
 	@echo "... tidy_quiet_apps__tcp_ip_ethernet.cc"
 	@echo "... tidy_quiet_apps__tcp_ipv4.cc"
@@ -3730,6 +3798,7 @@ help:
 	@echo "... tidy_quiet_doctests__socket_example_3.cc"
 	@echo "... tidy_quiet_libsponge__byte_stream.cc"
 	@echo "... tidy_quiet_libsponge__network_interface.cc"
+	@echo "... tidy_quiet_libsponge__router.cc"
 	@echo "... tidy_quiet_libsponge__stream_reassembler.cc"
 	@echo "... tidy_quiet_libsponge__tcp_connection.cc"
 	@echo "... tidy_quiet_libsponge__tcp_receiver.cc"
@@ -3912,6 +3981,7 @@ help:
 	@echo "... fsm_winsize"
 	@echo "... ipv4_parser"
 	@echo "... net_interface"
+	@echo "... network_simulator"
 	@echo "... parser_dt"
 	@echo "... recv_close"
 	@echo "... recv_connect"
