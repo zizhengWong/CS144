@@ -26,7 +26,7 @@ StreamReassembler::StreamReassembler(const size_t capacity)
 //! possibly out-of-order, from the logical stream, and assembles any newly
 //! contiguous substrings and writes them into the output stream in order.
 void StreamReassembler::push_substring(const string &data, const size_t index, const bool eof) {
-    // 获取 map 中第一个大于 index 的迭代器指针
+    // 尝试获取 map 中第一个大于 index 的迭代器指针
     auto pos_iter = _unassemble_strs.upper_bound(index);
     // 尝试获取一个小于等于 index 的迭代器指针
     if (pos_iter != _unassemble_strs.begin())
@@ -38,9 +38,11 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
      *      a. 一种表示确实存在一个小于等于 idx 的迭代器指针
      *      b. 一种表示当前指向的是大于 idx 的迭代器指针
      */
+
     // 获取当前子串的新起始位置
     size_t new_idx = index;
-    // 如果前面确实有子串
+    /* 1.考虑和map里的重叠情况 */
+    // 如果非 end_iter，也就是map里有子串，并且这个子串在data前面
     if (pos_iter != _unassemble_strs.end() && pos_iter->first <= index) {
         const size_t up_idx = pos_iter->first;
 
@@ -48,6 +50,7 @@ void StreamReassembler::push_substring(const string &data, const size_t index, c
         if (index < up_idx + pos_iter->second.size())
             new_idx = up_idx + pos_iter->second.size();
     }
+    /* 2.考虑和seqno的重叠情况 */
     // 如果前面没有子串，则和当前读取到的pos进行比较
     else if (index < _next_assembled_idx)
         new_idx = _next_assembled_idx;
